@@ -5,10 +5,14 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Today's Weather</h1>
+      <div className="container" id="weaather-app">
+        <h1>
+          Is It a Beautiful Day for a Walk? <em className="asterisk">*</em>
+        </h1>
+        <h3 id="today-date"></h3>
+        <h3 id="today-time"></h3>
         <Weather />
-      </header>
+      </div>
     </div>
   );
 }
