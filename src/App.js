@@ -12,6 +12,12 @@ function App() {
         <h3 id="today-date"></h3>
         <h3 id="today-time"></h3>
         <Weather />
+        <footer>
+          <a id="coded-by" href="https://github.com/ladyhobbit13/weather-react">
+            Open-source code
+          </a>
+          , by Claire Fleischer
+        </footer>
       </div>
     </div>
   );
