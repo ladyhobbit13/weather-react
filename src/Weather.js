@@ -11,7 +11,7 @@ export default function Weather() {
           className="form-control"
           id="city-search"
           aria-describedby="emailHelp"
-          placeholder="Where Will You Be Walking?"
+          placeholder="City"
         />
         <button type="submit" className="btn btn-primary" id="search-button">
           👟👟
